@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemesanan Barang</title>
+</head>
+<body>
+
+
+    
+    <h1 align="center">
+        <a href="#">Home</a> &nbsp;|&nbsp; 
+        <a href="#">Generate Link</a> &nbsp;|&nbsp; 
+        <a href="#">Transaction History</a> &nbsp;|&nbsp; 
+        <a href="#">Policy</a> &nbsp;|&nbsp; 
+        <a href="#">Logout</a>
+    </h1>
+
+    <form>
+        <table cellpadding="5" cellspacing="5">
+            <tr>
+                <td align="center" valign="top">
+                    <input type="file" name="upload_picture">
+                </td>
+
+                <td valign="top">
+                    <table>
+                        
+                        <tr>
+                            <td><label for="title">Judul Barang :</label></td>
+                            <td><input type="text" id="title" name="title" value="Iphone 18 Pro Max" size="40"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td valign="top"><label for="Deskripsi">Dekripsi barang :</label></td>
+                            <td>
+                                <textarea id="Deskripsi" name="Deskripsi" rows="5" cols="42" maxlenght="400">Tahun: 2026 Model: Iphone 18 Pro Max Warna: Hitam RAM: 16GB Storage: 1TB
+
+Kondisi : Bekas seperti baru</textarea>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="Nomor_Akun">Nomor Akun :</label></td>
+                            <td><input type="text" id="Nomor_Akun" name="Nomor_Akun" value="08123456789" size="40"></td>
+                        </tr>
+                       
+                        <tr>
+                            <td><label for="bank">Bank :</label></td>
+                            <td>
+                                <select id="bank" name="bank">
+                                    <option value="Pilih Bank" selected>Pilih Bank</option>
+                                    <option value="BCA">BCA</option>
+                                    <option value="Mandiri">Mandiri</option>
+    \
+                                </select>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><label for="Pemilik_Akun">Pemilik AKun :</label></td>
+                            <td><input type="text" id="Pemilik_Akun" name="Pemilik_Akun" value="Isi Nama Di Sini" size="40"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="Transakasi">Transaksi :</label></td>
+                            <td>
+                                <input type="number" id="Transakasi" name="Transakasi" value="1" selected min="1" max="3" size="40">
+                                <br><small>* Jika transaksi dilakukan untuk 3 orang, pilih 3 dari daftar drop-down</small>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" id="send_phone" name="send_phone" checked>
+                                <label for="send_phone">Kirim ke Telepon Seluler</label><br>
+                                <input type="checkbox" id="send_email" name="send_email" checked>
+                                <label for="send_email">Kirim ke Email</label>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><label for="nomor_telepon">Kirim ke Telepon Seluler :</label></td>
+                            <td><input type="text" id="nomor_telepon" name="nomor_telepon" value="1234567890" size="40"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="kirim_email">Kirim ke Email :</label></td>
+                            <td><input type="text" id="kirim_email" name="kirim_email" value="rezailham699@gmail.com" size="40"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Buat Tautan">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
